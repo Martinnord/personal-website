@@ -1,0 +1,71 @@
+/* IPHONE 5 */
+@media screen
+  and (min-width: 320px)
+  and (max-width: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+
+
+  #title {
+    margin-top: 50%;
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .lead-p {
+    font-size: 15px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  .circle i {
+    margin-top: 27px;
+  }
+
+  .fa {
+    font-size: 0.9em;
+  }
+
+  .hr-mini {
+    margin-top: 10px;
+  }
+
+  .description {
+    min-width: 270px;
+    max-width: 270px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .typed-cursor {
+    font-size: 36px;
+  }
+
+  .form-control {
+    width: 200px !important;
+  }
+
+  .br {
+    height: 50px;
+  }
+
+  .social-links {
+    margin: 0 10px 0 10px;
+    color: white;
+  }
+
+  a:-webkit-any-link{
+    text-decoration:none !important;
+  }
+
+
+}

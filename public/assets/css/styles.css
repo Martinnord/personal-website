@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../fonts/gothambold.eot');
+    src: url('../fonts/gothambold.svg#GothamBold') format('svg'),url('../fonts/gothambold.eot?iefix') format('eot'),url('../fonts/gothambold.woff') format('woff'),url('../fonts/gothambold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../fonts/gothambook.eot');
+    src: url('../fonts/gothambook.svg#GothamBook') format('svg'),url('../fonts/gothambook.eot?iefix') format('eot'),url('../fonts/gothambook.woff') format('woff'),url('../fonts/gothambook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+body, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "GothamBold",Helvetica,Arial,sans-serif;
+  letter-spacing: 0.4px !important;
+
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.jumbotron {
+  background-image: url("../img/bg.jpeg") !important;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+#title {
+  color: #fff;
+  margin-top: 300px;
+  display: inline-block !important;
+  letter-spacing: 3px;
+}
+
+.navbar-a {
+  font-family: 'GothamBook';
+  color: #222;
+  text-decoration: none !important;
+
+}
+.navbar-a:hover {
+    color: #f5f5f5;
+    transition: 1s;
+}
+
+.lead-p {
+  font-family: 'GothamBook';
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.nav-text {
+  font-weight: 300 !important;
+}
+
+.navbar {
+background-color: rgba(255,255,255,0.8)!important
+}
+
+#send-btn {
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 6px;
+  font-family: 'GothamBook';
+  font-size: 16px;
+  padding: 12px 20px;
+  border: 0;
+  background: #1abc9c;
+  color: #FFF;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 0 !important;
+  transition: all 0.5s ease;
+}
+
+#send-btn:hover {
+  background: orange;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.circle {
+  font-size: 3em;
+}
+
+.flat-butt {
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 6px;
+  font-family: 'GothamBook';
+  font-size: 16.5px;
+  padding: 12px 20px;
+  border: 0;
+  background: #1abc9c;
+  color: #FFF;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 0 !important;
+  transition: all 0.5s ease;
+}
+
+.flat-butt:hover {
+  background: orange;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.scroll-btn {
+  text-decoration: none !important;
+}
+
+.services {
+  background-color: #FBFBFB;
+}
+
+.h1-header {
+  font-family: 'GothamBold';
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+
+.hr-mini {
+  width: 40%;
+  background-color: #ccc !important;
+  height: 2px !important;
+}
+
+.icon-holder {
+  font-size: 3.5em;
+  color: #fff;
+}
+
+.row {
+  margin: 0;
+}
+
+.circle {
+  background-color: #1abc9c;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.fa {
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+
+}
+
+.icon:hover {
+  transition: all 0.5s ease;
+  color: #222;
+}
+
+h3 {
+  font-family: 'GothamBold';
+}
+
+hr {
+  margin-bottom: 30px;
+}
+
+.circle i {
+  margin-top: 26px;
+  display: inline-block;
+  width: 100%;
+}
+
+p {
+  font-family: 'GothamBook';
+  font-size: 16px;
+  letter-spacing: 0.4px !important;
+  max-width: 500px !important;
+  margin: 0 auto !important;
+
+}
+
+.seperator {
+  padding-bottom: 50px !important;
+  margin-bottom: 20px !important;
+
+}
+
+.no-rounded-edges {
+  border-radius: 0;
+}
+
+.description {
+  font-size: 16px;
+  margin: 0 10px 0 10px;
+}
+
+.thumbnail {
+  border: 0 none;
+  box-shadow: none;
+}
+
+.links {
+  color: #1abc9c;
+  text-decoration: none !important;
+}
+
+.links:hover {
+  color: orange;
+}
+
+.about-me {
+  max-width: 800px;
+  text-align: center !important;
+  margin: 0 auto;
+  letter-spacing: 0.5px !important;
+}
+
+.footer {
+  padding-top: 50px;
+  margin-top: 20px;
+  height: 200px;
+  background-color: #333;
+  width: 100%;
+}
+
+#contact-form {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+#contact-form input, #contact-form textarea, #send-btn {
+  margin: 0 auto;
+}
+
+#send-btn {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.form-control {
+  max-width: 600px;
+}
+
+.social-icons {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3em;
+}
+
+.social-icons i:not(:last-of-type) {
+  padding-right: 25px;
+}
+.br {
+  height: 110px;
+}
+
+.social-links {
+  margin: 0 25px 0 25px;
+}
+
+a:-webkit-any-link {
+text-decoration:none !important;
+}
+
+#drop-down {
+  transition: all 0.5s ease;
+  border-radius: 0 !important;
+}
