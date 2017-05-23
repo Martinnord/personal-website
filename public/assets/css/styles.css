@@ -39,6 +39,14 @@ body, body {
   letter-spacing: 3px;
 }
 
+#subtitle {
+    color: #fff;
+}
+
+#profileimage {
+
+}
+
 .navbar-a {
   font-family: 'GothamBook';
   color: #222;

@@ -29,11 +29,11 @@ $(function () {
       });
 });
 
-$(function() {
+/*$(function() {
   $("#title").typed({
     strings: ["Hello I'm Martin", "I am an iOS developer"],
     typeSpeed: 70
   });
-});
+});*/
 
 }); // Ready ends here
